@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consul 自动注册工具</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+        }
+        form {
+            max-width: 500px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="mb-4">Consul 自动注册工具</h1>
+    <form method="post" action="/" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="excel_file" class="form-label">Excel 文件：</label>
+            <input type="file" class="form-control" name="file" accept=".xlsx" required>
+        </div>
+        <div class="mb-3">
+            <label for="service_name" class="form-label">服务名：</label>
+            <input type="text" class="form-control" name="service_name" required>
+        </div>
+        <button type="submit" class="btn btn-primary">开始注册</button>
+    </form>
+    <script src="https://cdn.bootcdn.net/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

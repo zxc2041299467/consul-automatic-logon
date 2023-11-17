@@ -1,0 +1,7 @@
+1，解压
+2，进入到web-consul文件夹
+3，安装 相应的库，模块，pip install -r requirement.txt
+4，执行web-run.py  默认监听5000端口
+5，访问 ip:5000
+
+execl格式 可参照ip.xlsx

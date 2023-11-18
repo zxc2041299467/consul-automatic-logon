@@ -3,4 +3,5 @@
 
 ip.xsls格式演示可以参考一下  
 默认端口 http://127.0.0.1:5000  
-web-run.py启动
+web-run.py启动  
+设置你的consulapi地址consul_url = "consul地址"
